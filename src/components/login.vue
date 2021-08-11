@@ -1,12 +1,24 @@
 <template>
   <div>
-    登录
+
+
   </div>
 </template>
 
 <script>
 export default {
-  name: "login"
+  name: "login",
+  data() {
+
+    return {
+      loginDTO: {
+        account:"",
+        password:""
+      }
+
+    }
+
+  }
 }
 </script>
 
