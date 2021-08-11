@@ -23,7 +23,7 @@
       </el-form>
 
       <div>
-        <el-button>登录</el-button>
+        <el-button @click="login">登录</el-button>
       </div>
     </el-card>
 
@@ -38,6 +38,7 @@ export default {
   name: "login",
   methods: {
     login() {
+      this.$router.push({path: "/home"})
     },
   },
 
