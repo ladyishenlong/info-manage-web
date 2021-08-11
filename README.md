@@ -1,24 +1,5 @@
-# info-manage-web
+# 信息管理系统页面
 
-## Project setup
-```
-npm install
-```
+## 注意
+- vue3.x的依赖建议都使用带有next的版本
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
